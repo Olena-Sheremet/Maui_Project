@@ -1,77 +1,56 @@
 ﻿using LiveChartsCore;
 using LiveChartsCore.SkiaSharpView;
-using MauiProject.Services;
+using LiveChartsCore.SkiaSharpView.Painting;
+using SkiaSharp;
 
 namespace MauiProject;
 
 public partial class MainPage : ContentPage
 {
-    private readonly StudentDataService _studentService;
-
-    public MainPage(StudentDataService studentService)
+    public MainPage()
     {
-        try
-        {
-            InitializeComponent();
-            _studentService = studentService;
-            LoadStudentGrades();
-        }
-        catch (Exception ex)
-        {
-            System.Diagnostics.Debug.WriteLine(ex.ToString());
-            throw;
-        }
+        InitializeComponent();
     }
 
-    private async void LoadStudentGrades()
+    protected override void OnAppearing()
     {
-        var student = await _studentService.LoadStudentDataAsync();
+        base.OnAppearing();
 
-        if (student != null)
+        var values = new double[] { 93, 95, 93, 91, 87 };
+
+        GradesChart.Series = new ISeries[]
         {
-            var labels = new List<string>();
-            var averageGrades = new List<double>();
-
-            foreach (var course in student.Courses)
+            new LineSeries<double>
             {
-                if (course.Grades != null && course.Grades.Any())
-                {
-                    // Перетворюємо GradeValue на double
-                    double average = course.Grades.Average(g =>
-                    {
-                        return Convert.ToDouble(g.GradeValue); 
-                    });
-                    labels.Add(course.CourseName);
-                    averageGrades.Add(average);
-                }
+                Values = values,
+                GeometrySize = 15,
+                Fill = null,
+                Stroke = new SolidColorPaint(SKColors.Blue) { StrokeThickness = 3 },
+                GeometryStroke = new SolidColorPaint(SKColors.Red) { StrokeThickness = 3 }
             }
+        };
 
-            // Оновлення UI на головному потоці
-            MainThread.BeginInvokeOnMainThread(() =>
-            {
-                StudentNameLabel.Text = $"{student.FirstName} {student.LastName}";
-
-                GradesChart.Series = new ISeries[]
-                {
-                    new ColumnSeries<double>
-                    {
-                        Values = averageGrades
-                    }
-                };
-
-                GradesChart.XAxes = new Axis[]
-                {
-                    new Axis
-                    {
-                        Labels = labels,
-                        LabelsRotation = 15
-                    }
-                };
-            });
-        }
-        else
+        GradesChart.XAxes = new Axis[]
         {
-            await DisplayAlert("Помилка", "Не вдалося завантажити дані студента.", "OK");
-        }
+            new Axis
+            {
+                Labels = new[] { "A", "B", "C", "D", "E" },
+                LabelsRotation = 15,
+                TextSize = 16,
+                LabelsPaint = new SolidColorPaint(SKColors.Black)
+            }
+        };
+
+        GradesChart.YAxes = new Axis[]
+        {
+            new Axis
+            {
+                MinLimit = 0,
+                MaxLimit = 100,
+                TextSize = 16,
+                LabelsPaint = new SolidColorPaint(SKColors.Black)
+            }
+        };
+
     }
 }

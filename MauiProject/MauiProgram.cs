@@ -1,4 +1,7 @@
-﻿using LiveChartsCore.SkiaSharpView.Maui;
+﻿
+using LiveChartsCore;
+using LiveChartsCore.SkiaSharpView;
+using LiveChartsCore.SkiaSharpView.Maui;
 using SkiaSharp.Views.Maui.Controls.Hosting;
 
 namespace MauiProject;
@@ -10,12 +13,13 @@ public static class MauiProgram
         var builder = MauiApp.CreateBuilder();
         builder
             .UseMauiApp<App>()
-            .UseSkiaSharp()    // для графіків
-            .UseLiveCharts()   
-            .ConfigureFonts(fonts =>
-            {
-                fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-            });
+            .UseSkiaSharp()
+            .UseLiveCharts();
+        LiveCharts.Configure(config => config.AddSkiaSharp());
+        builder.ConfigureFonts(fonts =>
+        {
+            fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+        });
 
         builder.Services.AddSingleton<Services.StudentDataService>();
         builder.Services.AddSingleton<MainPage>();

@@ -5,19 +5,20 @@
              x:Class="MauiProject.MainPage"
              Title="Успішність студента">
 
-    <ScrollView>
-        <VerticalStackLayout Padding="20" Spacing="20">
+    <VerticalStackLayout Padding="20" Spacing="20">
 
-            <Label x:Name="StudentNameLabel"
-                   FontSize="24"
-                   HorizontalOptions="Center"
-                   TextColor="Black"
-                   FontAttributes="Bold" />
+        <Label Text="Олена Шеремет"
+               FontSize="24"
+               HorizontalOptions="Center"
+               TextColor="Black"
+               FontAttributes="Bold" />
 
-            <lvc:CartesianChart x:Name="GradesChart"
-                                HeightRequest="300" />
+        <lvc:CartesianChart x:Name="GradesChart"
+                            HeightRequest="300"
+                            WidthRequest="300"
+                            VerticalOptions="Start"
+                            HorizontalOptions="Center"
+                            BackgroundColor="Transparent" />
 
-        </VerticalStackLayout>
-    </ScrollView>
-
+    </VerticalStackLayout>
 </ContentPage>
