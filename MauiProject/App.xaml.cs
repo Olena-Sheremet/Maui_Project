@@ -2,12 +2,12 @@
 {
     public partial class App : Application
     {
-        public App(MainPage mainPage)
+        public App()
         {
             InitializeComponent();
 
             // Вказуємо головну сторінку
-            MainPage = new NavigationPage(mainPage);
+            MainPage = new AppShell(); ;
         }
     }
 }

@@ -22,7 +22,7 @@ public static class MauiProgram
         });
 
         builder.Services.AddSingleton<Services.StudentDataService>();
-        builder.Services.AddSingleton<MainPage>();
+        
         return builder.Build();
     }
 }
