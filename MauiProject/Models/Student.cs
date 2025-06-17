@@ -12,5 +12,7 @@ namespace MauiProject.Models
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public List<Course> Courses { get; set; }
+        public string FullName => $"{FirstName} {LastName}";
+
     }
 }

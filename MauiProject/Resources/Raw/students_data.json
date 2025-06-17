@@ -265,5 +265,805 @@
         ]
       }
     ]
+  },
+  {
+    "Id": "STU002",
+    "FirstName": "Віталій",
+    "LastName": "Доронін",
+    "Courses": [
+      {
+        "Year": 2020,
+        "CourseName": "1 курс (2020-2021)",
+        "Grades": [
+          {
+            "CourseName": "Математичний аналіз",
+            "GradeValue": 82
+          },
+          {
+            "CourseName": "Програмування",
+            "GradeValue": 93
+          },
+          {
+            "CourseName": "Основи фізико-математичного моделювання",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Історія України",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Дискретний аналіз",
+            "GradeValue": 82
+          },
+          {
+            "CourseName": "Іноземна мова (за професійним спрямуванням)",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Лінійна алгебра і аналітична геометрія",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Дискретний аналіз",
+            "GradeValue": 91
+          },
+          {
+            "CourseName": "Алгоритми і структури даних",
+            "GradeValue": 84
+          },
+          {
+            "CourseName": "Основи екології",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Математична логіка та теорія алгоритмів",
+            "GradeValue": 82
+          },
+          {
+            "CourseName": "Архітектура комп’ютера",
+            "GradeValue": 94
+          },
+          {
+            "CourseName": "Програмування",
+            "GradeValue": 90
+          }
+        ]
+      },
+      {
+        "Year": 2021,
+        "CourseName": "2 курс (2021-2022)",
+        "Grades": [
+          {
+            "CourseName": "Українська мова (за професійним спрямуванням)",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Математична логіка та теорія алгоритмів",
+            "GradeValue": 94
+          },
+          {
+            "CourseName": "Об’єктно-орієнтоване програмування",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Теорія ймовірностей та математична статистика",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Веб-технології та Веб-дизайн",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Веб-технології в ІПЗ",
+            "GradeValue": 93
+          },
+          {
+            "CourseName": "Аналіз вимого до програмного забезпечення",
+            "GradeValue": 92
+          },
+          {
+            "CourseName": "Основи інженерії програмного забезпечення",
+            "GradeValue": 92
+          },
+          {
+            "CourseName": "Історія української культури",
+            "GradeValue": 95
+          },
+          {
+            "CourseName": "Комп’ютерні мережі",
+            "GradeValue": 93
+          },
+          {
+            "CourseName": "Чисельні методи",
+            "GradeValue": 74
+          },
+          {
+            "CourseName": "Бази даних та інформаційні системи",
+            "GradeValue": 95
+          },
+          {
+            "CourseName": "Обчислювальна практика",
+            "GradeValue": 98
+          },
+          {
+            "CourseName": "Комп’ютерна графіка",
+            "GradeValue": 93
+          },
+          {
+            "CourseName": "Програмування на базі технології .net",
+            "GradeValue": 91
+          },
+          {
+            "CourseName": "Веб-програмування",
+            "GradeValue": 100
+          }
+        ]
+      },
+      {
+        "Year": 2022,
+        "CourseName": "3 курс (2022-2023)",
+        "Grades": [
+          {
+            "CourseName": "Системний аналіз та методи прийняття рішень",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Операційні системи",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Логічне програмування",
+            "GradeValue": 91
+          },
+          {
+            "CourseName": "Адміністрування Unix-систем",
+            "GradeValue": 93
+          },
+          {
+            "CourseName": "Соціально-політичні студії",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Проєктування та розробка комп’ютерних ігор",
+            "GradeValue": 92
+          },
+          {
+            "CourseName": "Скриптові мови програмування",
+            "GradeValue": 95
+          },
+          {
+            "CourseName": "Якість і тестування програмного забезпечення",
+            "GradeValue": 94
+          },
+          {
+            "CourseName": "Філософія",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Аналіз даних",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Інтерфейси користувача та системні інтерфейси",
+            "GradeValue": 92
+          },
+          {
+            "CourseName": "Крос платформне програмування",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Моделювання та проектування програмного забезпечення",
+            "GradeValue": 91
+          },
+          {
+            "CourseName": "Основи наукових досліджень",
+            "GradeValue": 82
+          },
+          {
+            "CourseName": "Розподілені системи та паралельні обчислення",
+            "GradeValue": 84
+          },
+          {
+            "CourseName": "Системне програмування",
+            "GradeValue": 95
+          }
+        ]
+      },
+      {
+        "Year": 2023,
+        "CourseName": "4 курс (2023-2024)",
+        "Grades": [
+          {
+            "CourseName": "Конструювання програмного забезпечення",
+            "GradeValue": 94
+          },
+          {
+            "CourseName": "Інтернет речей",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Економіка і право в ІТ- галузі",
+            "GradeValue": 78
+          },
+          {
+            "CourseName": "Технологічна практика",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Курсова робота",
+            "GradeValue": 91
+          },
+          {
+            "CourseName": "Хмарні обчислення та технології",
+            "GradeValue": 76
+          },
+          {
+            "CourseName": "Нейронні мережі",
+            "GradeValue": 79
+          },
+          {
+            "CourseName": "Методи і системи автоматизованого проєктування",
+            "GradeValue": 91
+          },
+          {
+            "CourseName": "Менеджмент ІТ- проєктів",
+            "GradeValue": 85
+          },
+          {
+            "CourseName": "Захист інформації",
+            "GradeValue": 82
+          },
+          {
+            "CourseName": "Виробнича практика",
+            "GradeValue": 97
+          },
+          {
+            "CourseName": "Методи і системи штучного інтелекту",
+            "GradeValue": 80
+          },
+          {
+            "CourseName": "Програмування мобільних пристроїв",
+            "GradeValue": 60
+          },
+          {
+            "CourseName": "Основи кібербезпеки",
+            "GradeValue": 64
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Id": "STU003",
+    "FirstName": "Ілля",
+    "LastName": "Якимчук",
+    "Courses": [
+      {
+        "Year": 2020,
+        "CourseName": "1 курс (2020-2021)",
+        "Grades": [
+          {
+            "CourseName": "Математичний аналіз",
+            "GradeValue": 74
+          },
+          {
+            "CourseName": "Програмування",
+            "GradeValue": 75
+          },
+          {
+            "CourseName": "Основи фізико-математичного моделювання",
+            "GradeValue": 67
+          },
+          {
+            "CourseName": "Історія України",
+            "GradeValue": 70
+          },
+          {
+            "CourseName": "Дискретний аналіз",
+            "GradeValue": 78
+          },
+          {
+            "CourseName": "Іноземна мова (за професійним спрямуванням)",
+            "GradeValue": 75
+          },
+          {
+            "CourseName": "Лінійна алгебра і аналітична геометрія",
+            "GradeValue": 67
+          },
+          {
+            "CourseName": "Дискретний аналіз",
+            "GradeValue": 94
+          },
+          {
+            "CourseName": "Алгоритми і структури даних",
+            "GradeValue": 68
+          },
+          {
+            "CourseName": "Основи екології",
+            "GradeValue": 82
+          },
+          {
+            "CourseName": "Математична логіка та теорія алгоритмів",
+            "GradeValue": 64
+          },
+          {
+            "CourseName": "Архітектура комп’ютера",
+            "GradeValue": 94
+          },
+          {
+            "CourseName": "Програмування",
+            "GradeValue": 74
+          }
+        ]
+      },
+      {
+        "Year": 2021,
+        "CourseName": "2 курс (2021-2022)",
+        "Grades": [
+          {
+            "CourseName": "Українська мова (за професійним спрямуванням)",
+            "GradeValue": 74
+          },
+          {
+            "CourseName": "Математична логіка та теорія алгоритмів",
+            "GradeValue": 74
+          },
+          {
+            "CourseName": "Об’єктно-орієнтоване програмування",
+            "GradeValue": 74
+          },
+          {
+            "CourseName": "Теорія ймовірностей та математична статистика",
+            "GradeValue": 75
+          },
+          {
+            "CourseName": "Веб-технології та Веб-дизайн",
+            "GradeValue": 74
+          },
+          {
+            "CourseName": "Веб-технології в ІПЗ",
+            "GradeValue": 75
+          },
+          {
+            "CourseName": "Аналіз вимого до програмного забезпечення",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Основи інженерії програмного забезпечення",
+            "GradeValue": 75
+          },
+          {
+            "CourseName": "Історія української культури",
+            "GradeValue": 62
+          },
+          {
+            "CourseName": "Комп’ютерні мережі",
+            "GradeValue": 75
+          },
+          {
+            "CourseName": "Чисельні методи",
+            "GradeValue": 60
+          },
+          {
+            "CourseName": "Бази даних та інформаційні системи",
+            "GradeValue": 74
+          },
+          {
+            "CourseName": "Обчислювальна практика",
+            "GradeValue": 93
+          },
+          {
+            "CourseName": "Комп’ютерна графіка",
+            "GradeValue": 86
+          },
+          {
+            "CourseName": "Програмування на базі технології .net",
+            "GradeValue": 74
+          },
+          {
+            "CourseName": "Веб-програмування",
+            "GradeValue": 80
+          }
+        ]
+      },
+      {
+        "Year": 2022,
+        "CourseName": "3 курс (2022-2023)",
+        "Grades": [
+          {
+            "CourseName": "Системний аналіз та методи прийняття рішень",
+            "GradeValue": 66
+          },
+          {
+            "CourseName": "Операційні системи",
+            "GradeValue": 82
+          },
+          {
+            "CourseName": "Логічне програмування",
+            "GradeValue": 65
+          },
+          {
+            "CourseName": "Адміністрування Unix-систем",
+            "GradeValue": 70
+          },
+          {
+            "CourseName": "Соціально-політичні студії",
+            "GradeValue": 74
+          },
+          {
+            "CourseName": "Проєктування та розробка комп’ютерних ігор",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Скриптові мови програмування",
+            "GradeValue": 85
+          },
+          {
+            "CourseName": "Якість і тестування програмного забезпечення",
+            "GradeValue": 85
+          },
+          {
+            "CourseName": "Філософія",
+            "GradeValue": 80
+          },
+          {
+            "CourseName": "Аналіз даних",
+            "GradeValue": 69
+          },
+          {
+            "CourseName": "Інтерфейси користувача та системні інтерфейси",
+            "GradeValue": 71
+          },
+          {
+            "CourseName": "Крос платформне програмування",
+            "GradeValue": 75
+          },
+          {
+            "CourseName": "Моделювання та проектування програмного забезпечення",
+            "GradeValue": 62
+          },
+          {
+            "CourseName": "Основи наукових досліджень",
+            "GradeValue": 73
+          },
+          {
+            "CourseName": "Розподілені системи та паралельні обчислення",
+            "GradeValue": 64
+          },
+          {
+            "CourseName": "Системне програмування",
+            "GradeValue": 70
+          }
+        ]
+      },
+      {
+        "Year": 2023,
+        "CourseName": "4 курс (2023-2024)",
+        "Grades": [
+          {
+            "CourseName": "Конструювання програмного забезпечення",
+            "GradeValue": 88
+          },
+          {
+            "CourseName": "Інтернет речей",
+            "GradeValue": 95
+          },
+          {
+            "CourseName": "Економіка і право в ІТ- галузі",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Технологічна практика",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Курсова робота",
+            "GradeValue": 91
+          },
+          {
+            "CourseName": "Хмарні обчислення та технології",
+            "GradeValue": 77
+          },
+          {
+            "CourseName": "Нейронні мережі",
+            "GradeValue": 80
+          },
+          {
+            "CourseName": "Методи і системи автоматизованого проєктування",
+            "GradeValue": 74
+          },
+          {
+            "CourseName": "Менеджмент ІТ- проєктів",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Захист інформації",
+            "GradeValue": 77
+          },
+          {
+            "CourseName": "Виробнича практика",
+            "GradeValue": 94
+          },
+          {
+            "CourseName": "Методи і системи штучного інтелекту",
+            "GradeValue": 84
+          },
+          {
+            "CourseName": "Програмування мобільних пристроїв",
+            "GradeValue": 74
+          },
+          {
+            "CourseName": "Основи кібербезпеки",
+            "GradeValue": 60
+          }
+        ]
+      }
+    ]
+  },{
+    "Id": "STU001",
+    "FirstName": "Олена",
+    "LastName": "Шеремет",
+    "Courses": [
+      {
+        "Year": 2020,
+        "CourseName": "1 курс (2020-2021)",
+        "Grades": [
+          {
+            "CourseName": "Математичний аналіз",
+            "GradeValue": 91
+          },
+          {
+            "CourseName": "Програмування",
+            "GradeValue": 92
+          },
+          {
+            "CourseName": "Основи фізико-математичного моделювання",
+            "GradeValue": 92
+          },
+          {
+            "CourseName": "Історія України",
+            "GradeValue": 82
+          },
+          {
+            "CourseName": "Дискретний аналіз",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Іноземна мова (за професійним спрямуванням)",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Лінійна алгебра і аналітична геометрія",
+            "GradeValue": 100
+          },
+          {
+            "CourseName": "Дискретний аналіз",
+            "GradeValue": 96
+          },
+          {
+            "CourseName": "Алгоритми і структури даних",
+            "GradeValue": 86
+          },
+          {
+            "CourseName": "Основи екології",
+            "GradeValue": 100
+          },
+          {
+            "CourseName": "Математична логіка та теорія алгоритмів",
+            "GradeValue": 98
+          },
+          {
+            "CourseName": "Архітектура комп’ютера",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Програмування",
+            "GradeValue": 95
+          }
+        ]
+      },
+      {
+        "Year": 2021,
+        "CourseName": "2 курс (2021-2022)",
+        "Grades": [
+          {
+            "CourseName": "Українська мова (за професійним спрямуванням)",
+            "GradeValue": 92
+          },
+          {
+            "CourseName": "Математична логіка та теорія алгоритмів",
+            "GradeValue": 95
+          },
+          {
+            "CourseName": "Об’єктно-орієнтоване програмування",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Теорія ймовірностей та математична статистика",
+            "GradeValue": 95
+          },
+          {
+            "CourseName": "Веб-технології та Веб-дизайн",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Веб-технології в ІПЗ",
+            "GradeValue": 93
+          },
+          {
+            "CourseName": "Аналіз вимого до програмного забезпечення",
+            "GradeValue": 93
+          },
+          {
+            "CourseName": "Основи інженерії програмного забезпечення",
+            "GradeValue": 93
+          },
+          {
+            "CourseName": "Історія української культури",
+            "GradeValue": 83
+          },
+          {
+            "CourseName": "Комп’ютерні мережі",
+            "GradeValue": 98
+          },
+          {
+            "CourseName": "Чисельні методи",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Бази даних та інформаційні системи",
+            "GradeValue": 96
+          },
+          {
+            "CourseName": "Обчислювальна практика",
+            "GradeValue": 93
+          },
+          {
+            "CourseName": "Комп’ютерна графіка",
+            "GradeValue": 95
+          },
+          {
+            "CourseName": "Програмування на базі технології .net",
+            "GradeValue": 95
+          },
+          {
+            "CourseName": "Веб-програмування",
+            "GradeValue": 100
+          }
+        ]
+      },
+      {
+        "Year": 2022,
+        "CourseName": "3 курс (2022-2023)",
+        "Grades": [
+          {
+            "CourseName": "Системний аналіз та методи прийняття рішень",
+            "GradeValue": 93
+          },
+          {
+            "CourseName": "Операційні системи",
+            "GradeValue": 92
+          },
+          {
+            "CourseName": "Логічне програмування",
+            "GradeValue": 95
+          },
+          {
+            "CourseName": "Адміністрування Unix-систем",
+            "GradeValue": 95
+          },
+          {
+            "CourseName": "Соціально-політичні студії",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Проєктування та розробка комп’ютерних ігор",
+            "GradeValue": 93
+          },
+          {
+            "CourseName": "Скриптові мови програмування",
+            "GradeValue": 93
+          },
+          {
+            "CourseName": "Якість і тестування програмного забезпечення",
+            "GradeValue": 95
+          },
+          {
+            "CourseName": "Філософія",
+            "GradeValue": 95
+          },
+          {
+            "CourseName": "Аналіз даних",
+            "GradeValue": 94
+          },
+          {
+            "CourseName": "Інтерфейси користувача та системні інтерфейси",
+            "GradeValue": 93
+          },
+          {
+            "CourseName": "Крос платформне програмування",
+            "GradeValue": 95
+          },
+          {
+            "CourseName": "Моделювання та проектування програмного забезпечення",
+            "GradeValue": 91
+          },
+          {
+            "CourseName": "Основи наукових досліджень",
+            "GradeValue": 91
+          },
+          {
+            "CourseName": "Розподілені системи та паралельні обчислення",
+            "GradeValue": 92
+          },
+          {
+            "CourseName": "Системне програмування",
+            "GradeValue": 95
+          }
+        ]
+      },
+      {
+        "Year": 2023,
+        "CourseName": "4 курс (2023-2024)",
+        "Grades": [
+          {
+            "CourseName": "Конструювання програмного забезпечення",
+            "GradeValue": 98
+          },
+          {
+            "CourseName": "Інтернет речей",
+            "GradeValue": 95
+          },
+          {
+            "CourseName": "Економіка і право в ІТ- галузі",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Технологічна практика",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Курсова робота",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Хмарні обчислення та технології",
+            "GradeValue": 92
+          },
+          {
+            "CourseName": "Нейронні мережі",
+            "GradeValue": 80
+          },
+          {
+            "CourseName": "Методи і системи автоматизованого проєктування",
+            "GradeValue": 94
+          },
+          {
+            "CourseName": "Менеджмент ІТ- проєктів",
+            "GradeValue": 92
+          },
+          {
+            "CourseName": "Захист інформації",
+            "GradeValue": 90
+          },
+          {
+            "CourseName": "Виробнича практика",
+            "GradeValue": 95
+          },
+          {
+            "CourseName": "Методи і системи штучного інтелекту",
+            "GradeValue": 85
+          },
+          {
+            "CourseName": "Програмування мобільних пристроїв",
+            "GradeValue": 98
+          },
+          {
+            "CourseName": "Основи кібербезпеки",
+            "GradeValue": 95
+          }
+        ]
+      }
+    ]
   }
 ]

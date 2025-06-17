@@ -1,23 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.Maui;assembly=LiveChartsCore.SkiaSharpView.Maui"
-             x:Class="MauiProject.MainPage">
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:lvc="clr-namespace:LiveChartsCore.SkiaSharpView.Maui;assembly=LiveChartsCore.SkiaSharpView.Maui"
+    x:Class="MauiProject.MainPage">
 
-    <VerticalStackLayout Padding="20" Spacing="20">
+    <VerticalStackLayout Padding="10" Spacing="15">
+        <Label Text="Обрати студента:" FontAttributes="Bold" FontSize="16" />
+        <Picker x:Name="StudentPicker" SelectedIndexChanged="StudentPicker_SelectedIndexChanged" Title="Оберіть студента" />
 
-        <!-- Підпис над полем вибору -->
-        <Label Text="Оберіть курс"
-               FontSize="18"
-               HorizontalOptions="Start" />
+        <Label Text="Обрати курс:" FontAttributes="Bold" FontSize="16" Margin="0,20,0,0" />
+        <Picker x:Name="CoursePicker" SelectedIndexChanged="CoursePicker_SelectedIndexChanged" Title="Оберіть курс" />
 
-        <!-- Picker курсу -->
-        <Picker x:Name="CoursePicker"
-                Title=""
-                SelectedIndexChanged="CoursePicker_SelectedIndexChanged" />
-
-        <!-- Chart -->
-        <lvc:CartesianChart x:Name="GradesChart"
-                            HeightRequest="300" />
+        <lvc:CartesianChart x:Name="GradesChart" HeightRequest="300" />
     </VerticalStackLayout>
+
 </ContentPage>
