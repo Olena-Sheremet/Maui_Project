@@ -10,55 +10,55 @@
         "Grades": [
           {
             "CourseName": "Математичний аналіз",
-            "GradeValue": "91"
+            "GradeValue": 91
           },
           {
             "CourseName": "Програмування",
-            "GradeValue": "92"
+            "GradeValue": 92
           },
           {
             "CourseName": "Основи фізико-математичного моделювання",
-            "GradeValue": "92"
+            "GradeValue": 92
           },
           {
             "CourseName": "Історія України",
-            "GradeValue": "82"
+            "GradeValue": 82
           },
           {
             "CourseName": "Дискретний аналіз",
-            "GradeValue": "90"
+            "GradeValue": 90
           },
           {
             "CourseName": "Іноземна мова (за професійним спрямуванням)",
-            "GradeValue": "90"
+            "GradeValue": 90
           },
           {
             "CourseName": "Лінійна алгебра і аналітична геометрія",
-            "GradeValue": "100"
+            "GradeValue": 100
           },
           {
             "CourseName": "Дискретний аналіз",
-            "GradeValue": "96"
+            "GradeValue": 96
           },
           {
             "CourseName": "Алгоритми і структури даних",
-            "GradeValue": "86"
+            "GradeValue": 86
           },
           {
             "CourseName": "Основи екології",
-            "GradeValue": "100"
+            "GradeValue": 100
           },
           {
             "CourseName": "Математична логіка та теорія алгоритмів",
-            "GradeValue": "98"
+            "GradeValue": 98
           },
           {
             "CourseName": "Архітектура комп’ютера",
-            "GradeValue": "90"
+            "GradeValue": 90
           },
           {
             "CourseName": "Програмування",
-            "GradeValue": "95"
+            "GradeValue": 95
           }
         ]
       },
@@ -68,67 +68,67 @@
         "Grades": [
           {
             "CourseName": "Українська мова (за професійним спрямуванням)",
-            "GradeValue": "92"
+            "GradeValue": 92
           },
           {
             "CourseName": "Математична логіка та теорія алгоритмів",
-            "GradeValue": "95"
+            "GradeValue": 95
           },
           {
             "CourseName": "Об’єктно-орієнтоване програмування",
-            "GradeValue": "90"
+            "GradeValue": 90
           },
           {
             "CourseName": "Теорія ймовірностей та математична статистика",
-            "GradeValue": "95"
+            "GradeValue": 95
           },
           {
             "CourseName": "Веб-технології та Веб-дизайн",
-            "GradeValue": "90"
+            "GradeValue": 90
           },
           {
             "CourseName": "Веб-технології в ІПЗ",
-            "GradeValue": "93"
+            "GradeValue": 93
           },
           {
             "CourseName": "Аналіз вимого до програмного забезпечення",
-            "GradeValue": "93"
+            "GradeValue": 93
           },
           {
             "CourseName": "Основи інженерії програмного забезпечення",
-            "GradeValue": "93"
+            "GradeValue": 93
           },
           {
             "CourseName": "Історія української культури",
-            "GradeValue": "83"
+            "GradeValue": 83
           },
           {
             "CourseName": "Комп’ютерні мережі",
-            "GradeValue": "98"
+            "GradeValue": 98
           },
           {
             "CourseName": "Чисельні методи",
-            "GradeValue": "90"
+            "GradeValue": 90
           },
           {
             "CourseName": "Бази даних та інформаційні системи",
-            "GradeValue": "96"
+            "GradeValue": 96
           },
           {
             "CourseName": "Обчислювальна практика",
-            "GradeValue": "93"
+            "GradeValue": 93
           },
           {
             "CourseName": "Комп’ютерна графіка",
-            "GradeValue": "95"
+            "GradeValue": 95
           },
           {
             "CourseName": "Програмування на базі технології .net",
-            "GradeValue": "95"
+            "GradeValue": 95
           },
           {
             "CourseName": "Веб-програмування",
-            "GradeValue": "100"
+            "GradeValue": 100
           }
         ]
       },
@@ -138,67 +138,67 @@
         "Grades": [
           {
             "CourseName": "Системний аналіз та методи прийняття рішень",
-            "GradeValue": "93"
+            "GradeValue": 93
           },
           {
             "CourseName": "Операційні системи",
-            "GradeValue": "92"
+            "GradeValue": 92
           },
           {
             "CourseName": "Логічне програмування",
-            "GradeValue": "95"
+            "GradeValue": 95
           },
           {
             "CourseName": "Адміністрування Unix-систем",
-            "GradeValue": "95"
+            "GradeValue": 95
           },
           {
             "CourseName": "Соціально-політичні студії",
-            "GradeValue": "90"
+            "GradeValue": 90
           },
           {
             "CourseName": "Проєктування та розробка комп’ютерних ігор",
-            "GradeValue": "93"
+            "GradeValue": 93
           },
           {
             "CourseName": "Скриптові мови програмування",
-            "GradeValue": "93"
+            "GradeValue": 93
           },
           {
             "CourseName": "Якість і тестування програмного забезпечення",
-            "GradeValue": "95"
+            "GradeValue": 95
           },
           {
             "CourseName": "Філософія",
-            "GradeValue": "95"
+            "GradeValue": 95
           },
           {
             "CourseName": "Аналіз даних",
-            "GradeValue": "94"
+            "GradeValue": 94
           },
           {
             "CourseName": "Інтерфейси користувача та системні інтерфейси",
-            "GradeValue": "93"
+            "GradeValue": 93
           },
           {
             "CourseName": "Крос платформне програмування",
-            "GradeValue": "95"
+            "GradeValue": 95
           },
           {
             "CourseName": "Моделювання та проектування програмного забезпечення",
-            "GradeValue": "91"
+            "GradeValue": 91
           },
           {
             "CourseName": "Основи наукових досліджень",
-            "GradeValue": "91"
+            "GradeValue": 91
           },
           {
             "CourseName": "Розподілені системи та паралельні обчислення",
-            "GradeValue": "92"
+            "GradeValue": 92
           },
           {
             "CourseName": "Системне програмування",
-            "GradeValue": "95"
+            "GradeValue": 95
           }
         ]
       },
@@ -208,59 +208,59 @@
         "Grades": [
           {
             "CourseName": "Конструювання програмного забезпечення",
-            "GradeValue": "98"
+            "GradeValue": 98
           },
           {
             "CourseName": "Інтернет речей",
-            "GradeValue": "95"
+            "GradeValue": 95
           },
           {
             "CourseName": "Економіка і право в ІТ- галузі",
-            "GradeValue": "90"
+            "GradeValue": 90
           },
           {
             "CourseName": "Технологічна практика",
-            "GradeValue": "90"
+            "GradeValue": 90
           },
           {
             "CourseName": "Курсова робота",
-            "GradeValue": "90"
+            "GradeValue": 90
           },
           {
             "CourseName": "Хмарні обчислення та технології",
-            "GradeValue": "92"
+            "GradeValue": 92
           },
           {
             "CourseName": "Нейронні мережі",
-            "GradeValue": "80"
+            "GradeValue": 80
           },
           {
             "CourseName": "Методи і системи автоматизованого проєктування",
-            "GradeValue": "94"
+            "GradeValue": 94
           },
           {
             "CourseName": "Менеджмент ІТ- проєктів",
-            "GradeValue": "92"
+            "GradeValue": 92
           },
           {
             "CourseName": "Захист інформації",
-            "GradeValue": "90"
+            "GradeValue": 90
           },
           {
             "CourseName": "Виробнича практика",
-            "GradeValue": "95"
+            "GradeValue": 95
           },
           {
             "CourseName": "Методи і системи штучного інтелекту",
-            "GradeValue": "85"
+            "GradeValue": 85
           },
           {
             "CourseName": "Програмування мобільних пристроїв",
-            "GradeValue": "98"
+            "GradeValue": 98
           },
           {
             "CourseName": "Основи кібербезпеки",
-            "GradeValue": "95"
+            "GradeValue": 95
           }
         ]
       }

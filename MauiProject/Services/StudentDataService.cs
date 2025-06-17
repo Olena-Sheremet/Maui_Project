@@ -19,5 +19,4 @@ namespace MauiProject.Services
             return students.FirstOrDefault();
         }
     }
-
 }
