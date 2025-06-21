@@ -7,7 +7,7 @@
             InitializeComponent();
 
             // Вказуємо головну сторінку
-            MainPage = new AppShell(); ;
+            MainPage = new AppShell(); 
         }
     }
 }
